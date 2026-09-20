@@ -1,0 +1,6 @@
+{
+  "train_rows": 800193,
+  "test_rows": 200016,
+  "users": 6040,
+  "movies": 3706
+}

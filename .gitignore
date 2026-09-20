@@ -1,26 +1,22 @@
 # Python
+# Python
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Virtual environments
 .venv/
+.venv-1/
 venv/
 env/
 
-# Data
+# Raw downloaded archive
 data/*.zip
-data/*.dat
-
-# Generated artifacts
-artifacts/*.joblib
-artifacts/*.json
-artifacts/*.csv
+data/**/*.dat
+data/ml-1m/
 
 # OS / IDE
-.DS_Store
+.DS_Store/
 .vscode/
 .idea/
 *.log
-
-# MovieLens dataset
-data/*.csv
-data/ml-1m/*.dat
